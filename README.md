@@ -1,3 +1,4 @@
+[![CircleCI](https://circleci.com/gh/kcm3394/mssc-beer-service-initial.svg?style=svg)](https://circleci.com/gh/kcm3394/mssc-beer-service-initial)
 # MSSC Beer Service
 
 Initial project commit missing from the Beer Service. This is a repository I duplicated from Spring Framework Guru to follow along with the MSSC course example.
