@@ -4,14 +4,14 @@
     <modelVersion>4.0.0</modelVersion>
 
     <parent>
-        <groupId>guru.springframework</groupId>
-        <artifactId>mssc-brewery-bom</artifactId>
-        <version>1.0-SNAPSHOT</version>
+        <groupId>com.github.sfg-beer-works</groupId>
+        <artifactId>sfg-brewery-bom</artifactId>
+        <version>1.0.7</version>
     </parent>
 
-    <artifactId>msscbeerservice</artifactId>
+    <artifactId>mssc-beer-service-initial</artifactId>
     <version>0.0.1-SNAPSHOT</version>
-    <name>msscbeerservice</name>
+    <name>mssc-beer-service-initial</name>
     <description>MSSC Beer Service - initial project</description>
 
     <dependencies>
