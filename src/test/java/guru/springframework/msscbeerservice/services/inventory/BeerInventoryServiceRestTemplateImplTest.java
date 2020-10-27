@@ -1,6 +1,5 @@
 package guru.springframework.msscbeerservice.services.inventory;
 
-import guru.springframework.msscbeerservice.bootstrap.BeerLoader;
 import org.junit.jupiter.api.Disabled;
 import org.junit.jupiter.api.Test;
 import org.springframework.beans.factory.annotation.Autowired;

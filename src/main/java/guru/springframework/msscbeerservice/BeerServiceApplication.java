@@ -5,10 +5,10 @@ import org.springframework.boot.autoconfigure.SpringBootApplication;
 import org.springframework.boot.autoconfigure.jms.artemis.ArtemisAutoConfiguration;
 
 @SpringBootApplication(exclude = ArtemisAutoConfiguration.class)
-public class MsscbeerserviceApplication {
+public class BeerServiceApplication {
 
     public static void main(String[] args) {
-        SpringApplication.run(MsscbeerserviceApplication.class, args);
+        SpringApplication.run(BeerServiceApplication.class, args);
     }
 
 }
