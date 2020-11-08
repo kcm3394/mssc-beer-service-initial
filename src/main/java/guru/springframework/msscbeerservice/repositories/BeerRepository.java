@@ -1,12 +1,11 @@
 package guru.springframework.msscbeerservice.repositories;
 
-import guru.springframework.msscbeerservice.domain.Beer;
 import guru.sfg.brewery.model.BeerStyleEnum;
+import guru.springframework.msscbeerservice.domain.Beer;
 import org.springframework.data.domain.Page;
 import org.springframework.data.domain.Pageable;
 import org.springframework.data.jpa.repository.JpaRepository;
 
-import java.util.Optional;
 import java.util.UUID;
 
 public interface BeerRepository extends JpaRepository<Beer, UUID> {
@@ -17,5 +16,5 @@ public interface BeerRepository extends JpaRepository<Beer, UUID> {
 
     Page<Beer> findAllByBeerNameAndBeerStyle(String beerName, BeerStyleEnum beerStyle, Pageable pageable);
 
-    Optional<Beer> findByUpc(String upc);
+    Beer findByUpc(String upc);
 }

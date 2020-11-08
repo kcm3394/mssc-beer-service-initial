@@ -1,9 +1,6 @@
 package guru.springframework.msscbeerservice.domain;
 
-import lombok.AllArgsConstructor;
-import lombok.Builder;
-import lombok.NoArgsConstructor;
-import lombok.Setter;
+import lombok.*;
 import org.hibernate.annotations.CreationTimestamp;
 import org.hibernate.annotations.GenericGenerator;
 import org.hibernate.annotations.Type;
@@ -14,6 +11,7 @@ import java.math.BigDecimal;
 import java.sql.Timestamp;
 import java.util.UUID;
 
+@Getter
 @Setter
 @NoArgsConstructor
 @AllArgsConstructor
@@ -48,44 +46,4 @@ public class Beer {
 
     private Integer minOnHand;
     private Integer quantityToBrew;
-
-    public UUID getId() {
-        return this.id;
-    }
-
-    public Long getVersion() {
-        return this.version;
-    }
-
-    public Timestamp getCreatedDate() {
-        return this.createdDate;
-    }
-
-    public Timestamp getLastModifiedDate() {
-        return this.lastModifiedDate;
-    }
-
-    public String getBeerName() {
-        return this.beerName;
-    }
-
-    public String getBeerStyle() {
-        return this.beerStyle;
-    }
-
-    public String getUpc() {
-        return this.upc;
-    }
-
-    public BigDecimal getPrice() {
-        return this.price;
-    }
-
-    public Integer getMinOnHand() {
-        return this.minOnHand;
-    }
-
-    public Integer getQuantityToBrew() {
-        return this.quantityToBrew;
-    }
 }
