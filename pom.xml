@@ -6,13 +6,17 @@
     <parent>
         <groupId>com.github.sfg-beer-works</groupId>
         <artifactId>sfg-brewery-bom</artifactId>
-        <version>1.0.17</version>
+        <version>1.0.22</version>
     </parent>
 
     <artifactId>mssc-beer-service-initial</artifactId>
     <version>0.0.1-SNAPSHOT</version>
     <name>mssc-beer-service-initial</name>
     <description>MSSC Beer Service - initial project</description>
+
+    <properties>
+        <docker.image.prefix>sfgbeerkcm3394</docker.image.prefix>
+    </properties>
 
     <dependencies>
         <dependency>
